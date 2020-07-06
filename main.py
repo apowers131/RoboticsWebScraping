@@ -20,7 +20,7 @@ def main():
     
     tree = html.fromstring(page.html.raw_html)
     print(tree)
-    print(page.html.raw_html)
+    print(dir(page.html))
     # match_scores = [25, 25, 25, 5, 25, 25, 0, 25, 25, 0]
     # average = sum(match_scores) / len(match_scores)
     # print (average)
